@@ -1,0 +1,24 @@
+:root {
+    --blue-color :#255da3;
+    --yellow-color :#e7cb00;
+    --red-color :#ec1c24;
+    --white-color :#ffffff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif,'Battambang', cursive;
+    scroll-behavior: smooth;
+}
+
+.home .header-bottom ul li a ,
+.home .sport .head-wrap .view-more a ,
+.home .sport .detail .title a ,
+.footer-wrap .menu li a {
+    transition: all .3s;
+}
+
+section {
+    margin-bottom: 40px !important;
+}

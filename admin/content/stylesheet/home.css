@@ -1,0 +1,513 @@
+/* @Home Style */
+.home .header_top {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    background-color: var(--whitecolor);
+}
+
+.home .header_top ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.home .header_top .container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home .header_top li img {
+    /* 1rem = 16px */
+	width:40px;
+	height:40px;
+    margin-left: 1rem;
+    border-radius: 100%;
+}
+
+.home .header_bottom {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--yellow-color);
+    z-index: 999;
+}
+
+.home .header_bottom .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home .header_bottom .logo img{
+width:250px;
+height:100px;
+}
+
+
+.home .header_bottom ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+
+.home .header_bottom ul li {
+    margin-left: 1rem;
+}
+
+.home .header_bottom ul li a {
+    font-size: 20px;
+    color: var(--blue-color);
+    font-weight: bold;
+    text-transform: uppercase;
+ 
+}
+
+.home .header_bottom ul li a:hover,.active {
+    color: var(--red-color);
+    text-decoration: none;
+    border-bottom: 2px solid var(--red-color);
+    padding-bottom: 44px;
+    transition: all ease 0.5s;
+}
+.home .banner img{
+    width: 100%;
+    height: 500px;
+}
+.mobile-menu {
+    display: none;
+}
+.home .sport .btn_socail_mobile_more,.home .sport .btn_socail_mobile_less,
+.home .sport .btn_Technology_mobile_more,.home .sport .btn_Technology_mobile_less,
+.home .sport .btn_entertaiment_mobile_more,.home .sport .btn_entertaiment_mobile_less{
+display:none;}
+.home .sport .item {
+    border-radius: 10px;
+}
+
+.home .sport .head-wrap {
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
+
+.home .sport .head-wrap .main-title h2 {
+    color: var(--blue-color);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.home .sport .head-wrap .view-more .btn {
+    padding: 10px;
+    color: var(--yellow-color);
+    background-color: var(--blue-color);
+}
+
+.home .sport .head-wrap .view-more .btn:hover {
+    color: var(--blue-color);
+    background-color: var(--yellow-color);
+}
+.home .sport .item_hide{
+    display: none;
+    margin-top: 30px;
+}
+.home .sport .thumbnail img{
+    width: 255px;
+    height: 230px;
+}
+.home .sport .thumbnail img:hover{
+
+    -webkit-transform: scale(1.05) rotate(0.1deg);
+    transform: scale(1.05) rotate(0.1deg);
+transition: all ease 0.4s;
+cursor:pointer;
+
+}
+.home .sport .detail {
+    padding: 12px;
+}
+
+.home .sport .detail .title a {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: var(--blue-color);
+}
+
+.home .sport .detail .title a:hover {
+    color: var(--yellow-color);
+    text-decoration: none;
+}
+
+.home .sport .detail .title a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.home .sport .detail .description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.title_section{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer-wrap {
+    background-color: var(--blue-color);
+}
+
+.footer-wrap .container {
+    display: flex;
+    padding: 2rem 0;
+    justify-content: space-between;
+}
+.footer-wrap .container .banner .thumbnail img{
+    width: 100%;
+    height: 250px;
+}
+.footer-wrap .container .quicklink .title{
+    text-align: center;
+}
+.footer-wrap .container .col-md-3{
+    height: 250px !important;
+    
+
+}
+
+.footer-wrap .menu {
+    padding: 0;
+    list-style: none;
+    margin-left:45px ;
+}
+
+.footer-wrap .menu li a {
+    line-height: 1.8;
+    color: var(--white-color);
+}
+
+.footer-wrap .menu li a:hover {
+    color: var(--yellow-color);
+    text-decoration: none;
+    transition: all ease 0.5s;
+}
+
+.footer-wrap .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--yellow-color);
+}
+.footer-wrap .container .contact .title{
+    text-align: center;
+}
+.footer-wrap .container .contact{
+    margin-bottom: 13px;
+}
+.footer-wrap .social-icon ul{
+    list-style-type: none; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 13px;
+
+}
+
+.footer-wrap .social-icon ul li a img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: -30px;
+}
+.footer-wrap .social-icon img:hover{
+    cursor: pointer;
+}
+
+.footer-wrap .address {
+    max-width: 25%;
+    
+}
+.footer-wrap .address .title{
+    text-align: center;
+    margin-left: 50px;
+}
+
+.footer-wrap .address .description {
+    color: var(--white-color);
+    margin-top: 13px;
+}
+.footer-wrap .address p{
+    width: 350%;
+    text-align: justify;
+}
+
+
+.address .title{
+    text-align: center;
+}
+
+
+/* @Ipad Pro Site */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .home .header_top li img {
+        width: 40px;
+    }
+    .home .header_bottom ul li a{
+        font-size: 18px;
+    }
+    .header_bottom .banner img{
+        width: 200px;
+    }
+    .header_bottom ul li a{
+        font-size: 11px;
+    }
+    .header_bottom ul li a:hover,.active{
+        padding-bottom: 45px;
+    }
+    .home .sport .head-wrap .main-title h2{
+        font-size: 25px;
+    }
+    .home .sport .head-wrap .view-more .btn{
+        padding: 8px;
+    }
+    .home .sport .item_hide{
+        display: none;
+        margin-top: 0;
+    }
+   .banner .thumbnail img {
+       width: 100%;
+   }
+
+   .home .sport .col-3 , .footer-wrap .container .col-3{
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+   }
+
+   .home .sport .item {
+        margin-bottom: 2rem;
+    }
+
+    .home .sport .item .thumbnail img {
+        width: 100%;
+    }
+    
+}
+
+/* @Ipad Site */
+@media (min-width: 768px) and (max-width: 992px) {
+    .home .header_bottom{
+        height: 90px;
+    }
+    .home .header_bottom ul li a{
+        font-size: 11px;
+    }
+    .home .header_bottom ul li a:hover,.active{
+        border-bottom:0;
+    }
+    .home .sport .head-wrap .main-title h2{
+        font-size: 20px;
+    }
+    .home .sport .head-wrap .view-more .btn{
+        padding: 6px;
+    }
+    .banner .thumbnail img {
+        width: 100%;
+    }
+
+    .home .sport .col-3 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .home .sport .item {
+        margin-bottom: 2rem;
+    }
+
+    .home .sport .item .thumbnail img {
+        width: 100%;
+    }
+   
+    .home .header_bottom .banner img {
+        width: 160px;
+    }
+    .footer-wrap .social-icon ul li a img{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        margin-left: -40px;
+    }
+    .home .footer-wrap .col-md-3 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .home .footer-wrap .col-md-3:nth-child(3),.col-md-3:nth-child(4){
+        margin-top: 30px;
+    }
+}
+
+/* @Mobile Site */
+@media screen and (max-width: 576px) {
+
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .home .header_bottom ,
+    .home .header_top {
+        display: none;
+    }
+   
+    .banner .thumbnail img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .home .sport .thumbnail img {
+        width: 100%;
+    }
+
+    .home .sport .item {
+        margin-bottom: 1rem;
+    }
+
+    /* @Mobile Menu */
+    .mobile-menu {
+        display: block;
+    }
+
+    .mobile-menu .bg-mobile-menu {
+        display:flex;
+    }
+
+    .mobile-menu .bg-mobile-menu {
+        background-color: var(--blue-color);
+        margin-bottom: 2px;
+        position: sticky;
+        top: 0;
+    }
+
+    .mobile-menu .menu-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mobile-menu .thumbnail {
+        margin: 0 15px;
+    }
+
+    .mobile-menu .fa-bars:before {
+        content: "\f0c9";
+        color: white;
+        font-size: 1.8rem;
+    }
+    .mobile-menu .fa-bars:hover{
+        cursor: pointer;
+    }
+
+    .mobile-menu .menu-content {
+        background-color: var(--blue-color);
+        
+    }
+
+    .mobile-menu .menu-content .menu {
+        list-style: none;
+        padding: 1rem 0 0 0;
+	
+    }
+
+    .mobile-menu .menu-content .menu li {
+        margin-bottom: 12px;
+    }
+
+    .mobile-menu .menu-content .menu li a {
+        color: var(--white-color);
+    }
+
+    .mobile-menu .menu-content .border {
+        width: 100%;
+        margin-bottom: 1rem;
+        border: 1px solid var(--white-color);
+    }
+
+    .mobile-menu .menu-content .social-icon {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 1rem;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+
+    .mobile-menu .menu-content .social-icon li img {
+        border-radius: 100%;
+    }
+
+    .mobile-menu .menu-content .develop-by {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mobile-menu .menu-content .develop-by .title {
+        color: var(--white-color);
+    }
+
+    .mobile-menu .menu-content .develop-by .name {
+        font-weight: bold;
+        padding-bottom: 8rem;
+        color: var(--yellow-color);
+    }
+    .home .sport .head-wrap .view-more .btn{
+        display: none;
+    }
+    .home .sport .btn_socail_mobile_more, .home .sport .btn_socail_mobile_less,
+.home .sport .btn_Technology_mobile_more,.home .sport .btn_Technology_mobile_less,
+.home .sport .btn_entertaiment_mobile_more,.home .sport .btn_entertaiment_mobile_less
+{
+	display:block;
+        width: 100%;
+        height: 50px;
+        margin-top: 10px;
+    }
+    .footer-wrap{
+        width: 100%;
+        font-size: 18px;
+    }
+    
+    .footer-wrap .quicklink{
+        margin-top: 15px;
+    }
+    .footer-wrap .address .title{
+        margin-left:190px ;
+    }
+    .footer-wrap .address .description{
+        width: 382%;
+        text-align: justify;
+        margin: 0 15px;
+    }
+}

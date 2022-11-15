@@ -1,0 +1,73 @@
+.contact-us .wrap-social ul {
+    list-style: none;
+}
+
+.contact-us .wrap-social ul li ,
+.contact-us .wrap-social ul li a {
+    color: var(--blue-color);
+}
+
+.contact-us .wrap-social ul li a:hover {
+    text-decoration: none;
+}
+
+.contact-us .wrap-social ul li {
+    margin-bottom: 10px;
+}
+
+.contact-us .form-wrap .box {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid var(--blue-color);
+}
+
+.contact-us .form-wrap .box:focus {
+    outline: none;
+}
+
+.contact-us .form-wrap textarea {
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid var(--blue-color);
+}
+
+.contact-us .form-wrap textarea:focus {
+    outline: none;
+}
+
+.contact-us .col-12:not(:first-child) {
+    padding: 15px;
+}
+
+.contact-us .btn-wrap {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-us .btn-wrap .btn {
+    width: 160px;
+    height: 45px;
+    color: var(--yellow-color);
+    background-color: var(--blue-color);
+}
+
+.contact-us .btn-wrap .btn:focus {
+    outline: none;
+}
+
+.contact-us .btn-wrap .btn:hover {
+    transition: all .3s;
+    color: var(--blue-color);
+    background-color: var(--yellow-color); 
+}
+
+@media screen and (max-width: 576px) {
+    .contact-us ul {
+        padding: 0;
+    }
+}

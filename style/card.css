@@ -1,0 +1,274 @@
+:root {
+    --blue-color: #255da3;
+    --yellow-color: #fbd94c;
+    --red-color: #fa1939;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+header .header-bottom .menu a ,
+.content-item .detail a .title {
+    transition: all .3s;
+}
+
+.col-12 {
+    padding: 0;
+}
+
+.title {
+    margin: 15px 0;
+    font-size: 20px;
+    color: var(--blue-color);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+/* @Header Top */
+header .header-top {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: var(--blue-color);
+}
+
+header .header-top .container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .header-top img {
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+/* @Header Bottom */
+header .header-bottom {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: var(--yellow-color);
+}
+
+header .header-bottom .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .header-bottom .menu {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    list-style: none;
+}
+
+header .header-bottom .menu a {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+header .header-bottom .menu a:hover {
+    color: var(--red-color);
+    text-decoration: none;
+}
+
+.main-banner img {
+    width: 100%;
+}
+
+.content-item .main-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--blue-color);
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.content-item .thumbnail img {
+    width: 100%;
+}
+
+.content-item .item {
+    border-radius: 10px;
+}
+
+.content-item .detail {
+    padding: 10px;
+}
+
+.content-item .detail a {
+    text-decoration: none;
+}
+
+.content-item .detail a .title {
+    color: var(--blue-color);
+    line-height: 1.7;
+}
+
+.content-item .detail a .title:hover {
+    color: var(--yellow-color);
+}
+
+.content-item .detail .description {
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+.content-item .detail .date {
+    color: var(--red-color);
+}
+
+footer {
+    background-color: var(--blue-color);
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+footer h3 {
+    color: var(--red-color);
+    font-weight: bold;
+}
+
+footer .quick-link ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .quick-link ul li a {
+     color: var(--yellow-color);
+     margin-bottom: 10px;
+}
+
+footer .quick-link a:hover {
+    text-decoration: none;
+}
+
+footer .social-icon img {
+    border-radius: 100%;
+}
+
+footer .address p {
+    color: var(--yellow-color);
+}
+
+
+
+/* @Ipad Pro Site */
+@media (min-width: 992px) and (max-width: 1200px) {
+    header .header-bottom .menu a {
+        font-size: 18px;
+    }
+
+    .content-item .detail a .title {
+        font-size: 17px;
+    }
+
+    .content-item .detail .description {
+        font-size: 15px;
+    }
+}
+/* @Ipad Site */
+@media (min-width: 768px) and (max-width: 992px) {
+    .header-bottom .logo img {
+        width: 180px;
+    }
+
+    header .header-bottom .menu a {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    .content-item .col-3 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+
+    .content-item .detail a .title {
+        font-size: 17px;
+    }
+
+    .content-item .detail .description {
+        font-size: 15px;
+    }
+
+    .content-item .col-3:last-child {
+        display: none;
+    }
+
+    footer .col-3 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    footer {
+        height: 380px;
+    }
+}
+/* @Mobile Site */
+@media screen and (max-width: 576px) {
+    section {
+        margin-bottom: 30px;
+    }
+    .col-1 ,
+    .col-2 ,
+    .col-3 ,
+    .col-4 ,
+    .col-5 ,
+    .col-6 ,
+    .col-7 ,
+    .col-8 ,
+    .col-9 ,
+    .col-10 ,
+    .col-11 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .content-item .item {
+        margin-bottom: 15px;
+    }
+
+    header .header-bottom .menu {
+        display: none;
+    }
+
+    header .header-bottom  {
+        height: 55px;
+    }
+
+    header .header-bottom .logo img {
+        width: 120px;
+    }
+
+    .content-item .main-title {
+        margin-bottom: 30px;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    footer .col-3 {
+        margin-bottom: 15px;
+    }
+
+    footer .logo {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+}

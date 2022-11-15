@@ -1,0 +1,27 @@
+.content.container {
+    padding: 0 15px;
+}
+input[type="file"],input[type="text"],.selection{
+    width: 600px;
+    height: 42px;
+    font-size: 17px;
+    border-radius: 20px;
+  }
+  textarea.form-control {
+    height: auto;
+    border-radius: 20px;
+}
+  .description{
+    width:1100px;
+    margin-bottom:15px;
+  }
+  .content-header{
+    margin-bottom:0;
+  }
+  .content-header h1{
+    text-decoration:underline;
+  }
+  .container label{
+    font-weight:normal;
+    font-style:italic;
+  }
